@@ -1,0 +1,28 @@
+.sobre-mi > img{
+    box-shadow: 1px 2px 5px var(--sombrasDia);
+}
+
+.container-sobre-mi > a{
+    box-shadow: 1px 2px 4px  var(--sombrasDia);
+    transition: all ease-in-out .2s;
+}
+.container-sobre-mi > a:hover{
+background-color: var(--linkDinNoche);
+}
+
+.container-sobre-mi > .donwload:hover{
+    background-color: var(--exepcionalNoche);
+}
+
+
+.info-container  > a:hover {
+   background-color: var(--negritaDia);
+}
+.info-container  > a:hover i{
+   transform: scale(1.1);
+   color: var(--sombrasDia);
+    transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+
+/*tecnologias*/

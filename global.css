@@ -1,0 +1,34 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    /*colores dia*/
+    --fondoDia:#ffffff;
+    --detallesDia:#818cf8;
+    --detalleSuaveDia:#e0e7ff;
+    --exepcionalDia:#13ae66;
+    --linkDinDia:#0482c5;
+    --titulosDia:#35393e;
+    --negritaDia:#495263;
+    --btnDia:#262930;
+    --letrasDia:#646465;
+    --sombrasDia:#cdd1fc;
+
+    /* Colores noche */
+--fondoNoche: #0f172a;       /* Fondo oscuro profundo */
+--detallesNoche: #6366f1;    /* Detalles en azul vibrante */
+--exepcionalNoche: #0c874e;  /* Verde para elementos excepcionales */
+--titulosNoche: #f1f5f9;     /* Títulos en blanco roto */
+--negritaNoche: #e2e8f0;     /* Negritas en tonos claros */
+--letrasNoche: #94a3b8;      /* Letras en tonos suaves */
+--sombrasNoche: #1e293b;     /* Sombras sutiles pero definidas */
+--linkDinNoche:#0073b2;
+}
+.wrapper {
+    margin: auto;
+    max-width: 750px; /* Establece un ancho máximo */
+    width: 100%; /* Usa un porcentaje para que se ajuste dinámicamente */
+}
