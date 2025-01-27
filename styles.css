@@ -2,13 +2,41 @@
     position:fixed;
     border-radius: 50%;
     border: none;
-    background-color: #13ae669b;
+    background-color: var(--linkDinDia);
     width: 50px;
     height: 50px;
     bottom: 5vh;
     right: 5vh;
     display: none;
+    cursor: pointer;
 }
+/*bton-dia-noche*/
+#invertirtema{
+    
+    position: fixed;
+    right: 3vh;
+    top: 2vh;
+    cursor: pointer;
+    background-color: var(--fondoDM);
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+}
+#invertirtema > i{
+    font-size: clamp(25px, 5vw, 20px);
+    padding: .5rem;
+}
+
+#invertirtema > .fa-moon{
+    color: #0744de ;
+    opacity: 0;
+}
+
+#invertirtema > .fa-sun{
+    color: yellow;
+    
+}
+
 
 .arriba-btn > i{
    font-size: 35px;
@@ -50,7 +78,7 @@
 .container-sobre-mi > a{
     display: flex;
     gap: .5rem;
-    color: var(--fondoDia);
+    color: var(--letrasDia2);
     font-size: clamp(14px, 5vw, 16px);
     font-weight: 600;
     text-decoration: none;
@@ -128,7 +156,7 @@ margin-right: 1rem;
     font-size: clamp(16px, 5vw, 18px);
     border-radius: 5px;
     background-color: var(--btnDia);
-    color: var(--fondoDia);
+    color: var(--letrasDia2);
     padding: .7rem 1rem .7rem 1rem;
     margin-right: 1rem;
 }
@@ -142,5 +170,26 @@ height: 100%;
 border-radius: 15px;
 box-shadow: 20px 15px var(--sombrasDia);
 margin-right: 1rem;
+
 }
 
+.habilidades{
+    margin: 1rem auto 5rem;
+}
+.habilidades > h5{
+    color: var(--linkDinNoche);
+    font-size: clamp(20px, 5vw, 30px);
+    margin: 1rem 0;
+    opacity: .8;
+}
+.container-skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.container-skills > i{
+    cursor: pointer;
+    font-size: clamp(45px, 5vw, 50px);
+}

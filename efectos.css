@@ -7,7 +7,7 @@
     transition: all ease-in-out .2s;
 }
 .container-sobre-mi > a:hover{
-background-color: var(--linkDinNoche);
+background-color: var(--letrasDia);
 }
 
 .container-sobre-mi > .donwload:hover{
@@ -16,13 +16,39 @@ background-color: var(--linkDinNoche);
 
 
 .info-container  > a:hover {
-   background-color: var(--negritaDia);
+   background-color: var(--linkDinDia);
 }
 .info-container  > a:hover i{
    transform: scale(1.1);
-   color: var(--sombrasDia);
+   color: var(--titulosDia);
     transition: background-color 0.3s ease-in-out; /* Transición suave */
 }
 
-
+/*proyectos*/
+.item-proyectos > img{
+    transition: box-shadow 0.2s ease-in-out;   
+}
+.item-proyectos > img:hover{
+box-shadow: 0px 0px var(--sombrasDia);
+}
 /*tecnologias*/
+
+.container-skills > i{
+    transition: padding-bottom 0.1s ease-in, transform 0.1s ease-in, color 0.1s ease-in;
+}
+
+.container-skills > i:hover{
+    padding-bottom: 2rem;
+   transform: translateY(-10px);
+   color: var(--detallesDia);
+   
+}
+
+
+/*botn-luna*/
+
+#invertirtema > i , #invertirtema{
+    transition: background-color 0.6s ease-in-out;
+    
+}
+

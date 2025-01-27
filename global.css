@@ -3,7 +3,10 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+body{
+    background-color: var(--fondoDia);
+    transition: background-color 0.5s ease, color 0.5s ease; /* Transición suave */
+}
 :root{
     /*colores dia*/
     --fondoDia:#ffffff;
@@ -15,10 +18,12 @@
     --negritaDia:#495263;
     --btnDia:#262930;
     --letrasDia:#646465;
+    --letrasDia2:#edebeb;
     --sombrasDia:#cdd1fc;
+    --fondoDM:#0f172a;
 
     /* Colores noche */
---fondoNoche: #0f172a;       /* Fondo oscuro profundo */
+--fondoNoche: #273d71;       /* Fondo oscuro profundo */
 --detallesNoche: #6366f1;    /* Detalles en azul vibrante */
 --exepcionalNoche: #0c874e;  /* Verde para elementos excepcionales */
 --titulosNoche: #f1f5f9;     /* Títulos en blanco roto */
